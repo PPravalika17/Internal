@@ -2,6 +2,6 @@ from flask import Flask
 app=Flask(__name__)
 @app.route('/')
 def hello:
-	print("Hello Welcome to gnits")
+    print("Hi all")
 if __name__=="__main__":
 	app.run(debug=True)
